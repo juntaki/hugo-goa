@@ -7,4 +7,7 @@ categories = []
 
 showpagemeta = true
 showcomments = true
+
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+date: {{ .Date }}
 +++
